@@ -1,0 +1,22 @@
+{
+  "name": "CAM",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Copy image and page info as markdown format.",
+  "update_url": "https://github.com/hotchemi/CAM/raw/master/pkg/cam.xml",
+  "icons": {
+    "16": "img/icon.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  },
+  "background" : {
+    "scripts": ["js/background.js"]
+  },
+  "permissions": [
+    "tabs",
+    "contextMenus",
+    "clipboardRead",
+    "https://*/*",
+    "http://*/*"
+  ]
+}
